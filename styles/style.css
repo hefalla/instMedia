@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #F2F2F2;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+main{
+	width: 80vw;
+}
+
+header{
+	text-align: center;
+	color: #C262AF;
+	margin: 20px;
+}
+
+section{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 40px 0;
+	line-height: 22px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	width: 300px;
+	box-shadow: 0 0 20px #bebebe;
+	height: 100%;
+	background: #FFF;
+}
+
+.card h2{
+	margin: 20px 0;
+	text-align: center;
+	font-size: 20px;
+}
+
+.card p{
+	text-align: justify;
+	font-size: 14px;
+}
+
+.rebel{
+	margin-top: 190px;
+}
+
+footer{
+	font-size: 10px;
+	color: #C262AF;
+	border-top: 1px solid #C262AF;
+	padding: 20px 0;
+	text-align: center;
+}
+
+@media (max-width:520px){
+
+	main{
+		width: 92vw;
+	}
+
+	section{
+		margin-bottom: 0;
+	}
+
+	.card{
+		margin-bottom: 30px;
+		width: 100%;
+		max-width: 320px;
+	}
+
+	.rebel{
+		margin-top: 0;
+	}
+}
